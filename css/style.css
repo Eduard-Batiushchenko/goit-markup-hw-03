@@ -299,13 +299,16 @@ body {
 
 .address .text {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 9px;
   color: var(--heroic-text-color);
 
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+}
+.address .text {
+  margin-bottom: 9px;
 }
 
 /* Portfolio buttons */
