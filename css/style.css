@@ -347,25 +347,33 @@ body {
 /* Portfolio projects */
 
 .title.portfolio {
-  margin-bottom: 4px;
-  padding-left: 24px;
+  margin-bottom: 0px;
   font-size: 18px;
   line-height: 2;
   text-align: left;
   letter-spacing: 0.06em;
 }
 
+.projects-text {
+  padding: 24px 20px;
+}
+
+.projects-links {
+  text-decoration: none;
+}
+
 .list.projects .item {
   width: 370px;
 }
 
-.portfolio .list.button {
+.portfolio .list.menu {
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   background-color: var(--primary-bg-white);
 }
 
-.list.button .item:not(:last-child) {
+.list.menu .item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -374,15 +382,6 @@ body {
   flex-wrap: wrap;
   align-content: center;
   justify-content: space-between;
-}
-
-.list.projects {
-  padding-top: 24px;
-}
-
-.list.projects .text {
-  padding-left: 24px;
-  padding-bottom: 20px;
 }
 
 .list.projects .item {
