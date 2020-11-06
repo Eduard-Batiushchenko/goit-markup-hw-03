@@ -184,9 +184,13 @@ body {
   padding-bottom: 0;
 }
 
-.benefits-container .list {
+.benefits .list {
   display: flex;
   justify-content: space-between;
+}
+
+.benefits-item {
+  width: 270px;
 }
 
 .benefits-item:not(:last-child) {
@@ -209,7 +213,7 @@ body {
   line-height: 1.14;
 }
 
-.container.about-us > .list {
+.section.about-us .list {
   display: flex;
   justify-content: space-between;
 }
@@ -224,6 +228,7 @@ body {
 }
 
 .our-team .item {
+  width: 270px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -348,10 +353,9 @@ body {
   letter-spacing: 0.06em;
 }
 
-/* .text.portfolio {
-  padding-left: 24px;
-  padding-bottom: 20px;
-} */
+.list.projects .item {
+  width: 370px;
+}
 
 .portfolio .list.button {
   display: flex;
